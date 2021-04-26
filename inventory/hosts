@@ -1,0 +1,20 @@
+all:
+  children:
+    armservers:
+      hosts:
+        rockpi:
+          ansible_host: 192.168.211.41 # rockpi
+          ansible_user: ansible
+        nanopi:
+          ansible_host: 192.168.211.43 # nanopi
+          ansible_user: ansible
+    amd64servers:
+      hosts:
+        agxeon:
+          ansible_host: 192.168.211.232 # agxeon
+          ansible_user: ansible
+    kvmservers:
+      hosts:
+        agkvm:
+          ansible_host: 192.168.211.45 # agkvm
+          ansible_user: ansible

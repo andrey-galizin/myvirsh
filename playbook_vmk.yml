@@ -1,0 +1,6 @@
+---
+- hosts: agxeon
+  vars:
+  become: yes
+  roles:
+    - role: qemu

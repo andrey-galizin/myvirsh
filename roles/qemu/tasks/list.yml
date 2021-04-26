@@ -1,0 +1,8 @@
+---
+- name: list | Create list VMs
+  virt:
+    command: "list_vms"
+  register: vms
+
+- debug:
+    var: vms
