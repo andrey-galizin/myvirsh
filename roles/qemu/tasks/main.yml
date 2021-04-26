@@ -1,7 +1,9 @@
 ---
-- import_tasks: list.yml
+#- import_tasks: list.yml
 #- import_tasks: start.yml
-#- import_tasks: stop.yml
+- import_tasks: list.yml
 #- import_tasks: storage_pools.yml
 #- import_tasks: volumes.yml
 #- import_tasks: networks.yml
+- import_tasks: shutdown.yml
+- import_tasks: list.yml

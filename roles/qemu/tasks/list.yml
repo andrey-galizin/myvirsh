@@ -1,7 +1,6 @@
 ---
 - name: list | Create list VMs
-  virt:
-    command: "list_vms"
+  command: virsh list --all
   register: vms
 
 - debug:

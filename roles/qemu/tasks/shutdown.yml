@@ -1,0 +1,3 @@
+---
+- name: shutdown | Shutdown VM
+  command: virsh shutdown ubuntu20.04
